@@ -12,7 +12,7 @@ node -v
 nvm current
 ```
 
-If you have everything set up just `cd` into the directory and type `npm install` into the terminal
+If you have everything set up just `cd` into the project directory and type `npm install` into the terminal
 
 ```
 cd INTO_PROJECT_FOLDER
