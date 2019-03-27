@@ -1,0 +1,26 @@
+{
+  "name": "aframe-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "simple starter boilerplate for a-frame with webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.config.js --open",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "author": "Daniel Zeitler",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "aframe": "^0.9.0"
+  }
+}
